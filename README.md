@@ -3,7 +3,7 @@
 ## Whiteboarding
 ![model outline](https://i.imgur.com/KuAMi9R.png)
 
-## User Stories:
+## User Story:
 
 As a local Washingtonian I want to create a website that highlights various local DC
 music artist. 
@@ -27,4 +27,10 @@ and unveil the person behind the music.
 
  ### Monday
 
- * 
+ ### Tuesday
+
+ ### Wednesday
+
+ ### Thursday
+
+ ### Friday
