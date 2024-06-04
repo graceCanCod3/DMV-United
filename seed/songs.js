@@ -21,67 +21,67 @@ const main = async () => {
  
   const songs = [
     {
-      album: "Anacostia Blues",
-      title: "Morning in the Capital",
+      album: "The Recipe",
+      title: "Welcome to DC",
       topSong: true,
-      description: "A smooth blend of jazz and blues capturing the essence of a DC morning.",
+      description: "'Welcome to DC' has enjoyed heavy rotation on WPGC 95.5 and WKYS 93.9 in DC (including on the syndicated “Russ Parr Morning Show”), and hit the Billboard HipHop and R&B charts. The music video for \"Welcome to DC\" enjoyed rotation on VH1 Soul, BETJ, BET, MTV Jams and MTV2 and the track was the official intro song for all Washington Wizards and Mystics Home games.",
       releaseDate: "2023-02-14",
-      artistId: artists._id,
-      url: "http://example.com/morning-in-the-capital"
+      artistId: mamboSauce._id,
+      url: "https://soundcloud.com/mambosauce/welcome-to-dc"
     },
     {
-      album: "U Street Nights",
-      title: "Electric Feel",
+      album: "Bustin' Loose",
+      title: "Bustin' Loose",
       topSong: false,
-      description: "A funky groove that lights up the night scene of U Street.",
-      releaseDate: "2022-08-21",
-      songId: artists._id,
-      url: "http://example.com/electric-feel"
+      description: "Released from the album of the same name, it spent four weeks at the top of the R&B singles chart in early 1979 and peaked at number 34 on the Billboard Hot 100 singles chart.",
+      releaseDate: "1979",
+      songId: chuckBrown._id,
+      url: "https://soundcloud.com/user-370152812/sets/chuck-brown-bustin-loose-1"
     },
     {
-      album: "Metro Vibes",
-      title: "Rush Hour",
+      album: "The reunion: Live at the Hyatt Regency",
+      title: "GoGo Mickey",
       topSong: true,
       description: "An upbeat track reflecting the hustle and bustle of DC's metro system.",
-      releaseDate: "2023-05-01",
-      songId: artists._id,
-      url: "http://example.com/rush-hour"
+      releaseDate: "2015-01-19",
+      songId: rareEssence._id,
+      url: "https://soundcloud.com/rareessence/gogo-mickey?in=rareessence/sets/the-reunion-live-at-the-hyatt"
     },
     {
-      album: "Cherry Blossom Dreams",
-      title: "Petals in the Wind",
+      album: "Drop the Bomb",
+      title: "Say What",
       topSong: false,
-      description: "A soothing melody inspired by the annual cherry blossom festival.",
-      releaseDate: "2023-04-10",
-      songId: artists._id,
-      url: "http://example.com/petals-in-the-wind"
+      description: "One of their greatest hit",
+      releaseDate: "2008-01-01",
+      songId: troubleFunk._id,
+      url: "https://soundcloud.com/troublefunkmusic/say-what-1?in=troublefunkmusic/sets/drop-the-bomb-3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
-      album: "Capital City Hip-Hop",
-      title: "State of the Union",
+      album: "The Backyard Band",
+      title: "Funky DrummerDown With The KingButta Fingaz",
       topSong: true,
       description: "A hard-hitting rap about the state of affairs in the nation's capital.",
       releaseDate: "2023-03-15",
-      songId: artists._id,
-      url: "http://example.com/state-of-the-union"
+      songId: backyardBand._id,
+      url: "https://soundcloud.com/rascoe22/backyard-band-funky?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
     },
     {
-      album: "Monumental",
-      title: "National Treasure",
-      topSong: false,
-      description: "A rock anthem paying tribute to the historical landmarks of DC.",
-      releaseDate: "2023-06-20",
-      songId: artists._id,
-      url: "http://example.com/national-treasure"
+      album: "School Daze",
+      title: "Da Butt",
+      topSong: true,
+      description: "was featured in Spike Lee's School Daze and scored Top 40 pop hit (and number one R&B hit) in 1988",
+      releaseDate: "1988",
+      songId: EU._id,
+      url: "https://open.spotify.com/track/29O9cSdpmLZKFcTRMlnqo2?si=ef5479005ca44700"
     },
     {
-      album: "Capital Grooves",
-      title: "Dance on the Mall",
+      album: "UCB (Uncalled 4 Band)",
+      title: "Sexy Lady (ft. Tre)",
       topSong: true,
       description: "A lively dance track that makes you want to move your feet.",
       releaseDate: "2023-01-30",
-      songId: artists._id,
-      url: "http://example.com/dance-on-the-mall"
+      songId: UCB._id,
+      url: "https://open.spotify.com/track/2SAR6olJLtcLou5kZKsbAb?si=d20008c179944f92"
     },
     {
       album: "DC Unplugged",
