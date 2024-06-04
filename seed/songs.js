@@ -25,7 +25,7 @@ const main = async () => {
       title: "Welcome to DC",
       topSong: true,
       description: "'Welcome to DC' has enjoyed heavy rotation on WPGC 95.5 and WKYS 93.9 in DC (including on the syndicated “Russ Parr Morning Show”), and hit the Billboard HipHop and R&B charts. The music video for \"Welcome to DC\" enjoyed rotation on VH1 Soul, BETJ, BET, MTV Jams and MTV2 and the track was the official intro song for all Washington Wizards and Mystics Home games.",
-      releaseDate: "2023-02-14",
+      releaseDate: "2009-08-27",
       artistId: mamboSauce._id,
       url: "https://soundcloud.com/mambosauce/welcome-to-dc"
     },

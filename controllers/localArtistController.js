@@ -13,29 +13,14 @@ const getAllLocalArtists = async (req, res) => {
     
 }
 
-
-// //fetch by music style
-// const getLocalArtist = async (req, res) => {
-//     const { id } = req.params;
-//     try {
-//         const localArtist = await LocalArtist.findById(id)
-//         if (!localArtist) {
-//             return res.status(404).json({ message: 'Style not found' });
-//         }
-//         res.status(200).json(localArtist);
-//     } catch (error) {
-//         res.status(500).json({ error: error.message });
-//     }
-// };
-
 const deleteLocalArtist = async (req, res) => {
     const { id } = req.params;
     try {
         const localArtist = await LocalArtist.findByIdAndDelete(id);
         if (!localArtist) {
-            return res.status(404).json({ message: 'Style not found' });
+            return res.status(404).json({ message: 'Artist not found' });
         }
-        res.status(200).json({ message: 'Style successfully deleted' });
+        res.status(200).json({ message: 'Artist deleted successfully' });
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
@@ -70,7 +55,6 @@ const createLocalArtist = async (req, res) => {
 
 module.exports = {
     getAllLocalArtists,
-//     getLocalArtist,
     deleteLocalArtist,
     updateLocalArtist,
     createLocalArtist

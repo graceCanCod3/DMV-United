@@ -41,9 +41,9 @@ const getSongByWord = async (req, res) => {
                 { releaseYear: releaseYear } 
             ]
         })
-        res.json(barbies)
+        res.json(songs)
     } catch (error) {
-        console.error("Error fetching barbies by search term:", error)
+        console.error("Error retriving song by search term:", error)
         res.status(500).json({ error: error.message })
     }
 }

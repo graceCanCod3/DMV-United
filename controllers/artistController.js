@@ -1,4 +1,4 @@
-const { Artrist } = require('../models');
+const { Artist } = require('../models');
 const mongoose = require('mongoose');
 
 
@@ -11,7 +11,7 @@ const getAllArtists = async (req, res) => {
     }
 };
 
-const getArtistsById = async (req, res) => {
+const getArtistById = async (req, res) => {
     const { id } = req.params;
     try {
         const artist = await Artist.findById(id)
@@ -32,7 +32,7 @@ const deleteArtist = async (req, res) => {
         const { id } = req.params
         const artist = await Artist.findByIdAndDelete(id)
         if (artist) {
-            return res.status(200).send({ message: 'Artist deleted' });
+            return res.status(200).send({ message: 'Artist deleted successfully' });
         }
         throw new Error("Artist not found")
     } catch (error) {
@@ -67,7 +67,7 @@ const createArtist = async (req, res) => {
 
 module.exports = {
     getAllArtists,
-    getArtistsById,
+    getArtistById,
     deleteArtist,
     updateArtist,
     createArtist
