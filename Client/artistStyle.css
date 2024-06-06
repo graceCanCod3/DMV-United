@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    height: 50px;
+}
+
+h1 {
+    font-family: "Gloria Hallelujah", cursive;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    height: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+#artist-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+}
+p {
+    color:rgb(19, 18, 18);
+    background: rgba(236, 246, 245, 0.434);
+
+}
+
+h2 {
+    font-size: 20px;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 3px rgb(141, 121, 139);
+}
+a:hover{
+    text-shadow: 0 0 3px white;
+}
