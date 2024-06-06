@@ -34,12 +34,19 @@ main {
 
 .content {
     display: flex;
-    max-width: 1200px;
+    max-width: 1790px;
+    
+
+    @media screen {
+        max-width: 1400px
+    }
 }
 
 .album-art img {
-    width: 300px;
+    width: 800px;
     height: auto;
+    display: flex;
+    margin-left: 10px;
 }
 
 .info {

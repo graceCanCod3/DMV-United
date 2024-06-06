@@ -29,7 +29,7 @@ app.listen(PORT, () => {
   app.get('/localArtist', localArtistController.getAllLocalArtists)
   app.get(`/song`, songController.getAllSongs)
   
-  
+  app.get('/song/artist/:artistId', songController.getSongByArtist)
   app.get('/artist/:id', artistController.getArtistById)
   app.get(`/song/:id`, songController.getSongById)
 

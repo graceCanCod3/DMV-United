@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 const getAllArtists = async (req, res) => {
     try {
         const artists = await Artist.find({});
-        res.json(artists)
+        console.log(artists)
+        return res.json(artists)
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
@@ -14,11 +15,11 @@ const getAllArtists = async (req, res) => {
 const getArtistById = async (req, res) => {
     const { id } = req.params;
     try {
-        const artist = await Artist.findById(id)
-        if (!artist) {
+        const artists = await Artist.findById(id)
+        if (!artists) {
             return res.status(404).json({ message: 'Artist not found' })
         }
-        res.status(200).json(artist);
+        res.status(200).json(artists);
     } catch (error) {
         res.status(500).json({ error: error.message })
     }

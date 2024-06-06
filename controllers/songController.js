@@ -48,7 +48,18 @@ const getSongByWord = async (req, res) => {
     }
 }
 
-
+const getSongByArtist = async (req, res) => {
+    const { artistId } = req.params;
+    try {
+        const songs = await Song.find({artistId: artistId})
+        if (!songs) {
+            return res.status(404).json({ message: 'Song not found' })
+        }
+        res.status(200).json(songs);
+    } catch (error) {
+        res.status(500).json({ error: error.message })
+    }
+}
 
 
 const deleteSong = async (req, res) => {
@@ -93,6 +104,7 @@ module.exports = {
     getAllSongs,
     getSongById,
     getSongByWord,
+    getSongByArtist,
     deleteSong,
     updateSong,
     createSong

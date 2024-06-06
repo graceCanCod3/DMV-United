@@ -4,7 +4,6 @@ const ArtistSchema = new Schema(
   {
     name: { type: String, required: true },
     dateOfBirth: { type: Date, required: true },
-    merch: {type: Boolean, required: true},
     bio: {type: String, required: true},
     genre: { type: String, required: true },
     image: { type: String, required: true},
