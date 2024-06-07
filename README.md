@@ -62,7 +62,7 @@ and unveil the person behind the music.
 ### Refrences/Links:
 
 * Display layout inspiration: [Genesis Music link](https://genesis-music.com/)
-* 1. Social media Icon:
+1. Social media Icon:
 2. [social media icon](https://iconscout.com/icons/facebook)
 2. [Social media icon](https://iconscout.com)
 
