@@ -87,6 +87,15 @@ and unveil the person behind the music.
 * <https://iconscout.com>
 
 
+#### Music Links
+* <https://soundcloud.com/mambosauce/welcome-to-dc>
+* <https://soundcloud.com/user-370152812/sets/chuck-brown-bustin-loose-1>
+* <https://soundcloud.com/rareessence/gogo-mickey?in=rareessence/sets/the-reunion-live-at-the-hyatt>
+* <https://soundcloud.com/troublefunkmusic/say-what-1?in=troublefunkmusic/sets/drop-the-bomb-3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing>
+* <https://soundcloud.com/rascoe22/backyard-band-funky?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing>
+* <https://open.spotify.com/track/29O9cSdpmLZKFcTRMlnqo2?si=ef5479005ca44700>
+* <https://open.spotify.com/track/2SAR6olJLtcLou5kZKsbAb?si=d20008c179944f92>
+
 
 
 
