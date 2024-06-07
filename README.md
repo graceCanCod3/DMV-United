@@ -69,5 +69,24 @@ and unveil the person behind the music.
 1. Converting images to direct link image png
 2. <https://imgur.com/>
 
+* Images sourced from:
+* <https://washingtoncitypaper.com/article/178050/how-two-distinct-gogo-movements-are-changing-dc-culture/>
+* <https://first-avenue.com/wp-content/uploads/2020/01/8819_159682668131_68491218131_3664097_6661711_n.jpg>
+* [Imgur](https://i.imgur.com/KH5EK2i.jpg)
+* <https://c8.alamy.com/comp/KAHX3K/may-3-2009-new-orleans-louisiana-usa-musician-chuck-brown-performs-KAHX3K.jpg>
+* <https://images.squarespace-cdn.com/content/v1/59b88b43bebafb89a4b607aa/1505270546021-6SW1GG8F461XDAWYQEIG/IMG_157128596013455.jpg>
+* <https://lh4.googleusercontent.com/proxy/9xV1CADkZ8zs1uGTuPppbFVM24BLV6OcR1CMJuNPH5mZYxjFTHJspmlRiNKHBpjl-Pj4XAdu-T6Of8ZUMlOjsZG8PqG-vu54wHIQFbre6NtYXCtMmEYmCx52Ug18_S7_yD5d066zlxUOrvfcx_XVPcYx9757nkpKQU6a24wjIg>
+
+#### Wireframe
+* <https://app.diagrams.net/>
+
+#### Logo
+* <https://www.canva.com/>
+
+#### Social media icon
+* <https://iconscout.com>
+
+
+
 
 
