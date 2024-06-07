@@ -4,7 +4,6 @@ const artists = `http://localhost:3003/artist`
 window.onload = async (event) => {
     await console.log("page is fully loaded");
 
-// let targetId = "Washington, DC";
 try {
     const response = await fetch(artistEndpoint);
     if (!response.ok) {
@@ -14,9 +13,7 @@ try {
     console.log(artistInfo)
 
     
-    // linkElement.href = `display-products.html?id=${product._id}`;
 
-    // const gogoArtist = artistInfo.filter(artist => artist.genreId === targetId);
     const artistContainer = document.getElementById('artist-container');
             artistInfo.forEach(artist => {
                 const artistElement = document.createElement('div');

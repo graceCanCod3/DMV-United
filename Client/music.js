@@ -20,9 +20,7 @@ const displaySongById = async () => {
             if (song) {
                 const songElement = document.createElement('div')
                 songElement.classList.add('song')
-                // songElement.innerHTML = `
-                //     <img src="${song.image}" alt="${song.title}" class="songImage">
-                // `;
+             
                 
                 const songText = document.createElement('div')
                 songText.classList.add('songText')

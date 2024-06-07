@@ -3,6 +3,9 @@
 ## Whiteboarding
 ![model outline](https://i.imgur.com/KuAMi9R.png)
 
+## Website Inspiration
+![Genesis-music](https://i.imgur.com/uSbGQz4.png)
+
 ## User Story:
 
 As a local Washingtonian I want to create a website that highlights various local DC
@@ -55,9 +58,6 @@ and unveil the person behind the music.
 
 * Update README.md
 
-
-## Website Inspiration
-![Genesis-music](https://i.imgur.com/uSbGQz4.png)
 
 ### Refrences/Links:
 
