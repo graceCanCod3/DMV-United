@@ -26,12 +26,48 @@ and unveil the person behind the music.
  * Have controllers and server.js setup and running
 
  ### Monday
+ * Changed models and seed file to reflect musicStyle for one genre
+ * Add CRUD to controller file
+ * Routes added to server.js
 
  ### Tuesday
- <a href="https://iconscout.com/icons/facebook" class="text-underline font-size-sm" target="_blank">facebook</a> by <a href="https://iconscout.com/contributors/unicons" class="text-underline font-size-sm">Unicons Font</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
+ * Setup frontend Client folder with **html, css, javascript**
+ * Setup landing page for **gogo.html** 
+ * Setup **script.js** for homepage
+ * Setup **style.css** for homepage
+ * Add icons for social media links
+  href=""
+ <a href="" class="text-underline font-size-sm">IconScout</a>
 
  ### Wednesday
+ * Create website logo ***GOGO-DC***
+ * Save logo as **.png** file
+ * Attach **.png** images to social media links
+ * Setup landing page for **artist.html**
 
  ### Thursday
+* Create and setup landing page for **song.html** 
+* Setup **music.js** and **music.css** for landing page
+* Clean-up CSS for html pages
+
 
  ### Friday
+
+* Update README.md
+
+
+## Website Inspiration
+![Genesis-music](https://i.imgur.com/uSbGQz4.png)
+
+### Refrences/Links:
+
+* Display layout inspiration: [Genesis Music link](https://genesis-music.com/)
+* 1. Social media Icon:
+2. [social media icon](https://iconscout.com/icons/facebook)
+2. [Social media icon](https://iconscout.com)
+
+1. Converting images to direct link image png
+2. <https://imgur.com/>
+
+
+

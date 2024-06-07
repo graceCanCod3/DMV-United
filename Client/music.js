@@ -32,7 +32,7 @@ const displaySongById = async () => {
                     <p>Album: ${song.album}</p>
                     <p>Release Year: ${song.releaseDate}</p>
                     <p>Description: ${song.description}</p>
-                    <a href="${song.url}">link</a>
+                    <a href="${song.url}">Click To Play Track!</a>
                 `;
 
                 songElement.appendChild(songText)

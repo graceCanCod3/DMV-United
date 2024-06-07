@@ -17,13 +17,20 @@ header {
     height: 50px;
 }
 
-.social-icons a {
-    margin: 0 10px;
-}
+/* .social-icons {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px;
+} */
 
 .social-icons img {
-    height: 24px;
-}
+    display:inline;
+    border-spacing: 10px; 
+    height: 30px; 
+    width: 30px;
+} */
 
 main {
     display: flex;
@@ -42,7 +49,7 @@ main {
     }
 }
 
-.album-art img {
+.band-art img {
     width: 800px;
     height: auto;
     display: flex;
@@ -53,13 +60,18 @@ main {
     max-width: 600px;
     margin-left: 40px;
 }
+.info img {
+    display: block;
+    margin:auto;
+
+}
 
 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2em;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-align: center;
     margin-bottom: 30px;
 }
@@ -74,9 +86,11 @@ p {
     line-height: 1.5;
 }
 
-.order-button {
-    display: inline-block;
-    padding: 10px 20px;
+.info button {
+    display: block;
+    margin:auto;
+    margin-top: 32px;
+    padding: 5px 10px;
     background-color: #6c2a2a;
     color: #fff;
     text-decoration: none;
@@ -84,6 +98,6 @@ p {
     border-radius: 5px;
 }
 
-.order-button:hover {
+.info button:hover {
     background-color: #5a2323;
 }
